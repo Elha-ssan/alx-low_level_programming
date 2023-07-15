@@ -1,23 +1,23 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	char letter;
-	char lette = 'A';
+	char ch = 'a';
+        char le;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (ch <= 'z')
 	{
-		putchar(letter);
+		putchar(ch);
+		ch++;
 	}
-	while (lette <= 'Z')
+	for (le = 'A'; le <= 'Z'; le++)
 	{
-		 putchar(lette);
-		 lette++
+		putchar(le);
 	}
 	putchar('\n');
 	return (0);
