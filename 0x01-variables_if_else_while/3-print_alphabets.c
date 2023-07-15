@@ -8,15 +8,16 @@
 int main(void)
 {
 	char letter;
-	char lette;
+	char lette = 'A';
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
 	}
-	for (lette = 'A'; lette <= 'Z'; lette++)
+	while (lette <= 'Z')
 	{
 		 putchar(lette);
+		 lette++
 	}
 	putchar('\n');
 	return (0);
