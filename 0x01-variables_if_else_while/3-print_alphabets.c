@@ -14,7 +14,6 @@ int main(void)
 	{
 		putchar(letter);
 	}
-
 	for (lette = 'A'; lette <= 'Z'; lette++)
 	{
 		 putchar(lette);
