@@ -2,5 +2,5 @@
 int main ()
 {
 	printf ("_putchar");
-	return ('0')
+	return ('0');
 }
